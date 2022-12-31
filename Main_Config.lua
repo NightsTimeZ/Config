@@ -34,6 +34,7 @@ _G.ConfigMain = {
     -- Setting etc
     ["Fast Attack Mode"] = "Fast Attack", -- Normal Attack, Fast Attack, Super Fast Attack
     ["Greater Teleportation"] = true,
+    ["White Screen"] = false,
     ["Select Weapon"] = "",
     ["Fast Attack"] = true,
     ["Auto Rejoin"] = true,
@@ -106,6 +107,8 @@ _G.ConfigMain = {
     -- Farm Etc. Three World [ Sea 3 ]
     ["Auto Collect Present"] = false,
     ["Auto ExpX2 Candy"] = false,
+    ["Select Lock Candy"] = 1000,
+    ["Start Lock Candy"] = false,
 
     ["Auto Mirage Island"] = false,
     ["Auto Mirage Island Hop"] = false,
