@@ -2,7 +2,6 @@ _G.KaitunConfig = {
     ["Auto Boost FPS"] = true,
     ["Skip Level Farm"] = true,
     ["Block All Hop"] = false,
-    ["Auto Collect Present"] = true,
     
     ["Start Kaitun"] = true,
     -- World 1
@@ -41,11 +40,11 @@ _G.KaitunConfig = {
     ["Auto Dargon Talon"] = true,
     
     ["Auto Mastery Devil Fruit"] = true,
-    ["Skill Setting"] = {
-        ["Z"] = 0.1,
-        ["X"] = 0.1,
-        ["C"] = 0.1,
-        --["V"] = 0.1, -- อันไหนไม่เอาลบออกไปเลย
+    ["Skill Setting"] = { -- ถ้าไม่ใส่จะใช้ mode auto
+        -- ["Z"] = 0.1,
+        -- ["X"] = 0.1,
+        -- ["C"] = 0.1,
+        -- ["V"] = 0.1, -- อันไหนไม่เอาลบออกไปเลย
     },
     ["Auto Mastery Sword"] = true,
     ["Sword Rarity Select"] = {"Mythical","Legendary"}, -- Common , Uncommon,Rare,Legendary,Mythical
