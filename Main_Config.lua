@@ -105,10 +105,6 @@ _G.ConfigMain = {
     ["Auto Buy Midnight Blade"] = false,
 
     -- Farm Etc. Three World [ Sea 3 ]
-    ["Auto Collect Present"] = false,
-    ["Auto ExpX2 Candy"] = false,
-    ["Select Lock Candy"] = 1000,
-    ["Start Lock Candy"] = false,
 
     ["Auto Mirage Island"] = false,
     ["Auto Mirage Island Hop"] = false,
