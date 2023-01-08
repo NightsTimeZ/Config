@@ -106,6 +106,8 @@ _G.ConfigMain = {
 
     -- Farm Etc. Three World [ Sea 3 ]
 
+    ["Auto Find Full Moon Hop"] = false,
+
     ["Auto Mirage Island"] = false,
     ["Auto Mirage Island Hop"] = false,
 
