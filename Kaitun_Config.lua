@@ -1,6 +1,7 @@
 _G.KaitunConfig = {
     ["Auto Boost FPS"] = true,
     ["Skip Level Farm"] = true,
+    ["Hop If Can't Kill Player"] = true,
     ["Block All Hop"] = false,
     
     ["Start Kaitun"] = true,
@@ -20,6 +21,7 @@ _G.KaitunConfig = {
     -- World 3
     ["Auto Hallow Scythe"] = true,
     ["Auto Buddy Sword"] = true,
+    ["Auto Dough King"] = true,
     ["Auto Spikey Trident"] = true,
     ["Auto Tushita"] = true,
     ["Auto Elite Hunter"] = true,
@@ -50,7 +52,11 @@ _G.KaitunConfig = {
     ["Sword Rarity Select"] = {"Mythical","Legendary"}, -- Common , Uncommon,Rare,Legendary,Mythical
 
     ["Select Redeem Code Level"] = 1,
+
+    -- Raids
+
     ["Select Rate Fruit Rais"] = 1000000, -- if fruit price less u rate then we use it to auto raids
+    ["Limit Raids Fragments"] = 12000,
 
     -- Devil Fruit
 
