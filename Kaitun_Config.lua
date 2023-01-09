@@ -70,6 +70,12 @@ _G.KaitunConfig = {
     ["RAM Password"] = "",
     ["Auto Set Description"] = false,
 
+    -- Webhook
+
+    ["Start Webhook"] = false,
+    ["Link Webhook"] = "",
+    ["Mode Webhook"] = "Send On Level Max", -- "Send Every 10 min","Send On Level Max","Send On Level Max And Every 10 min"
+
     -- CPU
     
     ["Select Lock Fps"] = 15,
