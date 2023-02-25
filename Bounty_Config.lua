@@ -2,23 +2,22 @@ _G.BountyConfig = {
     ["Webhook"] = {
         ["Enabled"] = true,
         ["CustomImage"] = "", -- if not in put = auto img
-        ["Mode Send"] = {"Bounty Change","On Server Hop"}
+        ["Mode Send"] = {"On Bounty Change","On Server Hop"}
     },
     ["Fps Lock"] = {
         ["Enabled"] = true,
         ["Fps"] = 30
     },
     ["Lock Bounty"] = {
-        ["Enabled"] = true,
-        ["Cap"] = 30
+        ["Enabled"] = false,
+        ["Cap"] = 30 -- ( mean 30m )
     },
     ["Add On"] = {
-        ["Invisible"] = false,
         ["IgnoreFriends"] = true, --Not Kill U Friends
     },
     ["Skill"] = { -- just select one in this
         ["Gun Method"] = false, -- can't use with in visible
-        ["All Skill Method"]  = false,
+        ["All Skill Method"]  = false, -- not recommend
         ["Custom Method"] = {
             ["Enabled"] = true,
             ["Melee"] = {
@@ -28,15 +27,18 @@ _G.BountyConfig = {
                     ["Z"] = {
                         ["Enable"] = true,
                         ["HoldTime"] = 0,
+                        ["Go Near Player"] = true,
                     },
                     ["X"] = {
                         ["Enable"] = true,
                         ["HoldTime"] = 0,
+                        ["Go Near Player"] = true,
                     },
     
                     ["C"] = {
                         ["Enable"] = true,
                         ["HoldTime"] = 0,
+                        ["Go Near Player"] = true,
                     },
                 },
             },
@@ -47,23 +49,27 @@ _G.BountyConfig = {
                     ["Z"] = {
                         ["Enable"] = true,
                         ["HoldTime"] = 0,
+                        ["Go Near Player"] = true,
                     },
                     ["X"] = {
                         ["Enable"] = true,
                         ["HoldTime"] = 0,
+                        ["Go Near Player"] = true,
                     },
-    
                     ["C"] = {
                         ["Enable"] = true,
-                        ["HoldTime"] = 3,
+                        ["HoldTime"] = 4,
+                        ["Go Near Player"] = false,
                     },
                     ["V"] = {
                         ["Enable"] = false,
                         ["HoldTime"] = 0,
+                        ["Go Near Player"] = true,
                     },
                     ["F"] = {
                         ["Enable"] = false,
                         ["HoldTime"] = 0,
+                        ["Go Near Player"] = true,
                     },
                 },
             },
@@ -74,10 +80,12 @@ _G.BountyConfig = {
                     ["Z"] = {
                         ["Enable"] = true,
                         ["HoldTime"] = 1,
+                        ["Go Near Player"] = false,
                     },
                     ["X"] = {
                         ["Enable"] = true,
                         ["HoldTime"] = 0,
+                        ["Go Near Player"] = false,
                     },
                 },
             },
@@ -88,10 +96,12 @@ _G.BountyConfig = {
                     ["Z"] = {
                         ["Enable"] = true,
                         ["HoldTime"] = 1,
+                        ["Go Near Player"] = false,
                     },
                     ["X"] = {
                         ["Enable"] = true,
                         ["HoldTime"] = 0,
+                        ["Go Near Player"] = false,
                     },
                 },
             },
