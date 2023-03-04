@@ -1,7 +1,7 @@
 _G.BountyConfig = {
     ["Webhook"] = {
         ["Enabled"] = true,
-        ["Url"] = "https://discord.com/api/webhooks/1064549685408313344/bjD8UN1FPEninXjrv6j9B1dPKxOwE2N_LEPx5QJFdsl1qgzMvTH-MIIu6N-yYW-YrQEy",
+        ["Url"] = "",
         ["CustomImage"] = "", -- if not in put = auto img
         ["Mode Send"] = {"On Bounty Change","On Server Hop"}
     },
