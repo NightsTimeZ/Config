@@ -1,6 +1,7 @@
 _G.BountyConfig = {
     ["Webhook"] = {
         ["Enabled"] = true,
+        ["Url"] = "https://discord.com/api/webhooks/1064549685408313344/bjD8UN1FPEninXjrv6j9B1dPKxOwE2N_LEPx5QJFdsl1qgzMvTH-MIIu6N-yYW-YrQEy",
         ["CustomImage"] = "", -- if not in put = auto img
         ["Mode Send"] = {"On Bounty Change","On Server Hop"}
     },
@@ -22,7 +23,7 @@ _G.BountyConfig = {
             ["Enabled"] = true,
             ["Melee"] = {
                 ["Enabled"] = true,
-                ["Delay"] = 0,
+                ["Delay"] = 0.2,
                 ["Skills"] = {
                     ["Z"] = {
                         ["Enable"] = true,
@@ -44,11 +45,11 @@ _G.BountyConfig = {
             },
             ["Blox Fruit"] = {
                 ["Enabled"] = true,
-                ["Delay"] = 0.5,
+                ["Delay"] = 0.3,
                 ["Skills"] = {
                     ["Z"] = {
                         ["Enable"] = true,
-                        ["HoldTime"] = 0,
+                        ["HoldTime"] = 3,
                         ["Go Near Player"] = true,
                     },
                     ["X"] = {
@@ -58,8 +59,8 @@ _G.BountyConfig = {
                     },
                     ["C"] = {
                         ["Enable"] = true,
-                        ["HoldTime"] = 4,
-                        ["Go Near Player"] = false,
+                        ["HoldTime"] = 0,
+                        ["Go Near Player"] = true,
                     },
                     ["V"] = {
                         ["Enable"] = false,
@@ -67,7 +68,7 @@ _G.BountyConfig = {
                         ["Go Near Player"] = true,
                     },
                     ["F"] = {
-                        ["Enable"] = false,
+                        ["Enable"] = true,
                         ["HoldTime"] = 0,
                         ["Go Near Player"] = true,
                     },
@@ -90,13 +91,13 @@ _G.BountyConfig = {
                 },
             },
             ["Sword"] = {
-                ["Enabled"] = false,
+                ["Enabled"] = true,
                 ["Delay"] = 0,
                 ["Skills"] = {
                     ["Z"] = {
                         ["Enable"] = true,
-                        ["HoldTime"] = 1,
-                        ["Go Near Player"] = false,
+                        ["HoldTime"] = 0,
+                        ["Go Near Player"] = true,
                     },
                     ["X"] = {
                         ["Enable"] = true,
