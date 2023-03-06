@@ -1,6 +1,6 @@
 _G.BountyConfig = {
     ["Webhook"] = {
-        ["Enabled"] = true,
+        ["Enabled"] = false,
         ["Url"] = "",
         ["CustomImage"] = "", -- if not in put = auto img
         ["Mode Send"] = {"On Bounty Change","On Server Hop"}
