@@ -17,7 +17,7 @@ _G.KaitunConfig = {
     ["Auto Darkbeard"] = true,
     ["Auto Factory"] = true,
     ["Auto Third World"] = true,
-    ["Allise Fruit"] = {"Dragon-Dragon","Soul-Soul","Venom-Venom","Dough-Dough"}, -- จะไม่ใช้ผลพวกนี้ในการเปิดประตูไปโลก3
+    ["Allise Fruit"] = {"Dragon-Dragon","Split-Split","Venom-Venom","Dough-Dough"}, -- จะไม่ใช้ผลพวกนี้ในการเปิดประตูไปโลก3
     -- World 3
     ["Auto Hallow Scythe"] = true,
     ["Auto Buddy Sword"] = true,
@@ -56,13 +56,14 @@ _G.KaitunConfig = {
     -- Raids
 
     ["Select Rate Fruit Rais"] = 1000000, -- if fruit price less u rate then we use it to auto raids
-    ["Limit Raids Fragments"] = 12000,
+    ["Limit Raids Fragments"] = 15000,
 
     -- Devil Fruit
 
-    ["Select Devil Fruit Sniper"] = {"Ice-Ice","Sand-Sand","Dark-Dark","Quake-Quake","Light-Light"},
-    ["Auto Buy Devil Fruit Sniper"] = false,
-    ["Eat Fruit From Inventroy"] = false, -- open wait auto buy DF sinper ^
+    ["Select Main Devil Fruit Sniper"] = {"Dragon-Dragon","Split-Split","Venom-Venom","Dough-Dough"}, -- ผลหลักที่จะกินเเทนผลรอง
+    ["Select Sub Devil Fruit Sinper"] = {"Ice-Ice","Sand-Sand","Dark-Dark","Quake-Quake","Light-Light"}, -- ผลรองจะกินไว้ก่อนเเล้วพอผลหลักมีก้จะเปลียนไปกินผิดหลัก
+    ["Allow Eat Fruit In Inventory"] = true,
+    ["Start Sniper"] = true,
 
     -- RAM
 
