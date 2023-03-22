@@ -1,6 +1,6 @@
 _G.BountyConfig = {
     ["Webhook"] = {
-        ["Enabled"] = false,
+        ["Enabled"] = true,
         ["Url"] = "",
         ["CustomImage"] = "", -- if not in put = auto img
         ["Mode Send"] = {"On Bounty Change","On Server Hop"}
@@ -14,6 +14,10 @@ _G.BountyConfig = {
         ["Cap"] = 30 -- ( mean 30m )
     },
     ["Add On"] = {
+        ["Hop Server Time"] = {
+            ["Enabled"] = true,
+            ["Delay Hop Time"] = 170, -- 2 min 30 sec -- and normal is hop when kill all player in server
+        } ,
         ["IgnoreFriends"] = true, --Not Kill U Friends
     },
     ["Skill"] = { -- just select one in this
