@@ -17,7 +17,7 @@ _G.KaitunConfig = {
     ["Auto Darkbeard"] = true,
     ["Auto Factory"] = true,
     ["Auto Third World"] = true,
-    ["Allise Fruit"] = {"Dragon-Dragon","Split-Split","Venom-Venom","Dough-Dough"}, -- จะไม่ใช้ผลพวกนี้ในการเปิดประตูไปโลก3
+    ["Allise Fruit"] = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- จะไม่ใช้ผลพวกนี้ในการเปิดประตูไปโลก3
     -- World 3
     ["Auto Hallow Scythe"] = true,
     ["Auto Buddy Sword"] = true,
@@ -60,7 +60,7 @@ _G.KaitunConfig = {
 
     -- Devil Fruit
 
-    ["Select Main Devil Fruit Sniper"] = {"Dragon-Dragon","Split-Split","Venom-Venom","Dough-Dough"}, -- ผลหลักที่จะกินเเทนผลรอง
+    ["Select Main Devil Fruit Sniper"] = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- ผลหลักที่จะกินเเทนผลรอง
     ["Select Sub Devil Fruit Sinper"] = {"Ice-Ice","Sand-Sand","Dark-Dark","Quake-Quake","Light-Light"}, -- ผลรองจะกินไว้ก่อนเเล้วพอผลหลักมีก้จะเปลียนไปกินผิดหลัก
     ["Allow Eat Fruit In Inventory"] = true,
     ["Start Sniper"] = true,
