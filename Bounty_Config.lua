@@ -18,7 +18,36 @@ _G.BountyConfig = {
             ["Enabled"] = true,
             ["Delay Hop Time"] = 170, -- 2 min 30 sec -- and normal is hop when kill all player in server
         } ,
+        ["Chat Sender"] = {
+            ["Enabled"] = true ,
+            ["Text"] = {"Go Buy RoySec Now","RoySec da bezt","im stronger than u"},
+        },
+        ["% Health To Save"] = 35, -- this is if u health lower 35% it will be go safe zone
+
+        ["On Race V4"] = {
+            ["Enabled"] = false ,
+            ["Use This Skill on v4"] = { -- add skill that off/not have in custom method to this 
+                ["Gun"] = {
+                    ["Enabled"] = true,
+                    ["Delay"] = 0,
+                    ["Skills"] = {
+                        ["Z"] = {
+                            ["Enable"] = true,
+                            ["HoldTime"] = 0,
+                            ["Go Near Player"] = false,
+                        },
+                        ["X"] = {
+                            ["Enable"] = true,
+                            ["HoldTime"] = 0,
+                            ["Go Near Player"] = false,
+                        },
+                    },
+                },
+            }
+        },
+
         ["IgnoreFriends"] = true, --Not Kill U Friends
+        ["Fast Mode"] = true, --Fast Mode
     },
     ["Skill"] = { -- just select one in this
         ["Gun Method"] = false, -- can't use with in visible
@@ -78,22 +107,22 @@ _G.BountyConfig = {
                     },
                 },
             },
-            ["Gun"] = {
-                ["Enabled"] = false,
-                ["Delay"] = 0,
-                ["Skills"] = {
-                    ["Z"] = {
-                        ["Enable"] = true,
-                        ["HoldTime"] = 1,
-                        ["Go Near Player"] = false,
-                    },
-                    ["X"] = {
-                        ["Enable"] = true,
-                        ["HoldTime"] = 0,
-                        ["Go Near Player"] = false,
-                    },
-                },
-            },
+            -- ["Gun"] = { -- thin this example i add this in to on v4 use
+            --     ["Enabled"] = false,
+            --     ["Delay"] = 0,
+            --     ["Skills"] = {
+            --         ["Z"] = {
+            --             ["Enable"] = true,
+            --             ["HoldTime"] = 1,
+            --             ["Go Near Player"] = false,
+            --         },
+            --         ["X"] = {
+            --             ["Enable"] = true,
+            --             ["HoldTime"] = 0,
+            --             ["Go Near Player"] = false,
+            --         },
+            --     },
+            -- },
             ["Sword"] = {
                 ["Enabled"] = true,
                 ["Delay"] = 0,
