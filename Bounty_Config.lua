@@ -1,4 +1,4 @@
- _G.JoinTeam = "Pirate" -- "Marine" & "Pirate"
+_G.JoinTeam = "Pirate" -- "Marine" & "Pirate"
 _G.BountyConfig = {
     ["Webhook"] = {
         ["Enabled"] = true,
