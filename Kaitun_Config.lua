@@ -12,6 +12,7 @@ _G.KaitunConfig = {
     -- World 2
     ["Auto Rengoku"] = true,
     ["Auto Quest Flower"] = true,
+    ["Auto V3 Race"] = true,
     ["Auto Bartilo"] = true,
     ["Auto Cursed Captain"] = true,
     ["Auto Darkbeard"] = true,
@@ -29,6 +30,7 @@ _G.KaitunConfig = {
     ["Auto Yama"] = true,
     ["Auto Canvander"] = true,
     ["Auto Soul Guitar"] = true,
+    ["Skip Get Item Guitar"] = true, -- จะไม่ หาของทำ soul guiter ในโลก 2 เบบ หาจนกว่าจะได้ will not find item until get all item for do soul guiter ( open recommend เเนะนำให้เปิด ) 
     ["Auto Rainbow Haki"] = true,
     ["Auto Cursed Dual Katana"] = true,
     
@@ -56,7 +58,7 @@ _G.KaitunConfig = {
     -- Raids
 
     ["Select Rate Fruit Rais"] = 1000000, -- if fruit price less u rate then we use it to auto raids
-    ["Limit Raids Fragments"] = 15000,
+    ["Limit Raids Fragments"] = 100000,
 
     -- Devil Fruit
 
