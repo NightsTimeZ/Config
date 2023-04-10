@@ -7,7 +7,7 @@ _G.BountyConfig = {
         ["Mode Send"] = {"On Bounty Change","On Server Hop"}
     },
     ["Fps Lock"] = {
-        ["Enabled"] = true,
+        ["Enabled"] = false, -- not recommend
         ["Fps"] = 30
     },
     ["Lock Bounty"] = {
@@ -15,18 +15,19 @@ _G.BountyConfig = {
         ["Cap"] = 30 -- ( mean 30m )
     },
     ["Add On"] = {
+        ["Black Screen"] = false,
         ["Hop Server Time"] = {
             ["Enabled"] = true,
             ["Delay Hop Time"] = 170, -- 2 min 30 sec -- and normal is hop when kill all player in server
         } ,
         ["Chat Sender"] = {
             ["Enabled"] = true ,
-            ["Text"] = {"Go Buy RoySec Now","RoySec da bezt","im stronger than u"},
+            ["Text"] = {"Go Buy RoySec Now","RoySec da bezt","im stronger than u",'i just too good'},
         },
         ["% Health To Save"] = 35, -- this is if u health lower 35% it will be go safe zone
 
         ["On Race V4"] = {
-            ["Enabled"] = false ,
+            ["Enabled"] = true ,
             ["Use This Skill on v4"] = { -- add skill that off/not have in custom method to this 
                 ["Gun"] = {
                     ["Enabled"] = true,
@@ -51,17 +52,20 @@ _G.BountyConfig = {
         ["Fast Mode"] = true, --Fast Mode
     },
     ["Skill"] = { -- just select one in this
-        ["Gun Method"] = false, -- can't use with in visible
+        ["Gun Method"] = false,
         ["All Skill Method"]  = false, -- not recommend
+
+        ["Auto Mode Beta"] = true, -- beta
+
         ["Custom Method"] = {
-            ["Enabled"] = true,
+            ["Enabled"] = false,
             ["Melee"] = {
                 ["Enabled"] = true,
                 ["Delay"] = 0.2,
                 ["Skills"] = {
                     ["Z"] = {
                         ["Enable"] = true,
-                        ["HoldTime"] = 0,
+                        ["HoldTime"] = 2,
                         ["Go Near Player"] = true,
                     },
                     ["X"] = {
@@ -72,7 +76,7 @@ _G.BountyConfig = {
     
                     ["C"] = {
                         ["Enable"] = true,
-                        ["HoldTime"] = 0,
+                        ["HoldTime"] = 0.1,
                         ["Go Near Player"] = true,
                     },
                 },
@@ -83,7 +87,7 @@ _G.BountyConfig = {
                 ["Skills"] = {
                     ["Z"] = {
                         ["Enable"] = true,
-                        ["HoldTime"] = 3,
+                        ["HoldTime"] = 1,
                         ["Go Near Player"] = true,
                     },
                     ["X"] = {
@@ -92,13 +96,13 @@ _G.BountyConfig = {
                         ["Go Near Player"] = true,
                     },
                     ["C"] = {
-                        ["Enable"] = true,
+                        ["Enable"] = false,
                         ["HoldTime"] = 0,
                         ["Go Near Player"] = true,
                     },
                     ["V"] = {
-                        ["Enable"] = false,
-                        ["HoldTime"] = 0,
+                        ["Enable"] = true,
+                        ["HoldTime"] = 0.2,
                         ["Go Near Player"] = true,
                     },
                     ["F"] = {
@@ -126,7 +130,7 @@ _G.BountyConfig = {
             -- },
             ["Sword"] = {
                 ["Enabled"] = true,
-                ["Delay"] = 0,
+                ["Delay"] = 0.2,
                 ["Skills"] = {
                     ["Z"] = {
                         ["Enable"] = true,
