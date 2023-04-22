@@ -15,6 +15,8 @@ _G.BountyConfig = {
         ["Cap"] = 30 -- ( mean 30m )
     },
     ["Add On"] = {
+        ["Server Hop Region"] = "", -- find with u self '=' can use abbreviation like jap , tok if not put = auto
+        ["Add Range"] = 0, -- add range from u and target
         ["Black Screen"] = false,
         ["Hop Server Time"] = {
             ["Enabled"] = true,
