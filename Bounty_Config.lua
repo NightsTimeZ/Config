@@ -26,7 +26,7 @@ _G.BountyConfig = {
             ["Enabled"] = false ,
             ["Text"] = {"Go Buy RoySec Now","RoySec da bezt","im stronger than u",'i just too good'},
         },
-        ["invisible"] = true, -- hum work no some character ;-; i think cyborg v4 not work , can't use with gun but soul guitar can
+        ["invisible"] = false, -- hum work no some character ;-; i think cyborg v4 not work , can't use with gun but soul guitar can
         ["% Health To Save"] = 35, -- this is if u health lower 35% it will be go safe zone
 
         ["On Race V4"] = {
