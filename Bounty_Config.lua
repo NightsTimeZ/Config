@@ -15,6 +15,8 @@ _G.BountyConfig = {
         ["Cap"] = 30 -- ( mean 30m )
     },
     ["Add On"] = {
+        ["Auto Mode Beta Function"] = false,
+
         ["Server Hop Region"] = "", -- find with u self '=' can use abbreviation like jap , tok if not put = auto
         ["Add Range"] = 0, -- add range from u and target
         ["Black Screen"] = false,
@@ -76,7 +78,7 @@ _G.BountyConfig = {
                         ["HoldTime"] = 0,
                         ["Go Near Player"] = true,
                     },
-    
+
                     ["C"] = {
                         ["Enable"] = true,
                         ["HoldTime"] = 0.1,
