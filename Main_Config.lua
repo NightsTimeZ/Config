@@ -100,6 +100,7 @@ _G.ConfigMain = {
     ["Auto Rengoku"] = false,
 
     ["Auto Farm Ectoplasm"] = false,
+    ["Auto Ghoul Race Hop"] = false,
     ["Auto Buy Bizarre Rifle"] = false,
     ["Auto Buy Ghoul Mask"] = false,
     ["Auto Buy Midnight Blade"] = false,
