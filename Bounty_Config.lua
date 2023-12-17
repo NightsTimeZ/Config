@@ -1,7 +1,7 @@
 _G.JoinTeam = "Pirate" -- "Marine" & "Pirate"
 _G.BountyConfig = {
 	["Hop Server Time"] = 200, -- 9999 to utill u die
-	["Mode"] = "Gun", -- Custom , Auto , Gun
+	["Mode"] = "Gun", -- Custom , Auto , Gun , leo
 	["Misc"] = {
 		["Ignore_list"] = { -- Fruit ignore
 			"Portal-Portal",
