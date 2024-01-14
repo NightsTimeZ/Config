@@ -1,4 +1,4 @@
-{
+_G.KaitunConfig = {
     ["Start Farm"] = true,
     -- all melee is already do with it self
     -- auto activate list ( Auto Do List )
@@ -60,6 +60,16 @@
     -- Add On
     ["Race Lock"] = "notlock", -- Human , Mink , Fishman , put other mean not lock
 
+    -- Sword
     ["Mastery Sword"] = true, -- will farm mastery
     ["Select Rarity"] = {"Mythical","Legendary"}, -- Common , Uncommon,Rare,Legendary,Mythical
+
+    -- Fruit
+    ["Select Main Devil Fruit Sniper"] = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- if have will eat
+    ["Select Sub Devil Fruit Sinper"] = {"Ice-Ice","Sand-Sand","Dark-Dark","Quake-Quake","Light-Light"}, -- will eat if not have main fruit
+    ["Allow Eat Fruit In Inventory"] = true,
+    ["Start Sniper"] = true,
+    
+    -- Fruit2
+    ["Safe Fruit"] = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- will not use this fruit to raids or anyting
 }
