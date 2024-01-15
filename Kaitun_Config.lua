@@ -16,7 +16,6 @@ _G.KaitunConfig = {
         auto go sea 3
         kill darkbeard
         race v2
-        race v3
         bartilo
 
         / sea 3
@@ -50,6 +49,7 @@ _G.KaitunConfig = {
     ["Auto Factory"] = true,
     ["Rengoku"] = true,
     ["Sea 3 Hop"] = false, -- hop to find fruit
+    ["Race v3"] = true,
     
     -- sea 3
     ["CDK"] = true,
