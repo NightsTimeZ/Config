@@ -59,6 +59,7 @@ _G.KaitunConfig = {
 
     -- Add On
     ["Race Lock"] = "notlock", -- Human , Mink , Fishman , put other mean not lock
+    ["FPS Cap"] = 15,
 
     -- Sword
     ["Mastery Sword"] = true, -- will farm mastery
