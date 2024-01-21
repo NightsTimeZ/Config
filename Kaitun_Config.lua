@@ -44,6 +44,7 @@ _G.KaitunConfig = {
 
     -- sea 1
     ["PlayerHunter"] = true, -- will do skip lvl too
+    ["Player Hunter Hop"] = false,
 
     -- sea 2
     ["Auto Factory"] = true,
@@ -60,6 +61,10 @@ _G.KaitunConfig = {
     -- Add On
     ["Race Lock"] = "notlock", -- Human , Mink , Fishman , put other mean not lock
     ["FPS Cap"] = 15,
+
+    ["Buy Haki Color"] = true, -- will buy only Snow White,Pure Red,Winter Sky
+    ["Auto Legendary Sword"] = true,
+    ["Auto TTK"] = true,
 
     -- Sword
     ["Mastery Sword"] = true, -- will farm mastery
