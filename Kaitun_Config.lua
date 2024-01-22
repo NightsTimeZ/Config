@@ -6,6 +6,7 @@ _G.KaitunConfig = {
         GodHuman, all melee
         get god human material
         random fruit , store fruit
+        smart code redeem
 
         / sea 1
         auto go sea 2
@@ -28,10 +29,7 @@ _G.KaitunConfig = {
         dough awaking
         elite hunter
 
-        / sea 2 - 3
-        ttk [ wado shisui sadi ]
-        legendary color haki
-        smart code redeem
+        
 
     ]]
     ["Auto Fruit"] = true, -- tween to fruit
