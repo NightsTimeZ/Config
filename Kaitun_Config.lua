@@ -1,3 +1,4 @@
+_G.Ui_Hide = false
 _G.KaitunConfig = {
     ["Start Farm"] = true,
     -- all melee is already do with it self
