@@ -13,6 +13,7 @@ _G.KaitunConfig = {
         auto go sea 2
         skip farm level
         saber
+        kill Greybeard (bisento v2)
 
         / sea 2
         auto go sea 3
@@ -37,7 +38,7 @@ _G.KaitunConfig = {
 
     ["RedeemCode Level"] = 2,
 
-    ["Black Sreen"] = true,
+    ["White Sreen"] = true,
 
     ["LimitFragment"] = 100000,
 
@@ -58,6 +59,7 @@ _G.KaitunConfig = {
     ["Soul Guitar"] = true,
 
     -- Add On
+    ["Farm When Lvl Max"] = "Katakuri", -- Bone , Katakuri , Coco
     ["Race Lock"] = "notlock", -- Human , Mink , Fishman , put other mean not lock
     ["FPS Cap"] = 15,
 
