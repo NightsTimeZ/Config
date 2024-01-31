@@ -79,4 +79,11 @@ _G.KaitunConfig = {
     
     -- Fruit2
     ["Safe Fruit"] = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- will not use this fruit to raids or anyting
+
+    -- Webhook
+    ["Link Webhook"] = "",
+    ["Start Webhook"] = false,
+    ["Webhook Mode"] = "Send Every 10 min", -- "Send Every 10 min","Send On Level Max"
+    ["tag user"] = false,
+    ["Send Test Webhook"] = false,
 }
