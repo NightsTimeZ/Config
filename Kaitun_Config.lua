@@ -83,7 +83,8 @@ _G.KaitunConfig = {
     -- Webhook
     ["Link Webhook"] = "",
     ["Start Webhook"] = false,
-    ["Webhook Mode"] = "Send Every 10 min", -- "Send Every 10 min","Send On Level Max"
+    ["Webhook Mode"] = "Send Every .. min", -- "Send Every .. min","Send On Level Max","Send On Level Max And Every .. min"
+    ["Webhook Minute"] = 10, -- mean 10 Minute
     ["tag user"] = false,
     ["Send Test Webhook"] = false,
 }
