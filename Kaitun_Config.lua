@@ -22,17 +22,11 @@ _G.KaitunConfig = {
         bartilo
 
         / sea 3
-        kill soul reaper,
-        kill dough king,
-        kill cake prince
-        kill rip indra
-        kill Beautiful Pirate
+        kill boss
 
         dough awaking
+        CDK
         elite hunter
-
-        
-
     ]]
     ["Auto Fruit"] = true, -- tween to fruit
 
@@ -41,6 +35,24 @@ _G.KaitunConfig = {
     ["White Sreen"] = true,
 
     ["LimitFragment"] = 100000,
+
+    -- item
+
+    ["Boss List"] = { -- put boss for farm item ---pls dont put boss that have requirement (like Saber boss dofrmigo) because it already kill if can
+        "The Saw [Lv. 100] [Boss]",
+        "Greybeard [Lv. 750] [Raid Boss]",
+    
+        "Darkbeard [Lv. 1000] [Raid Boss]",
+        "Cursed Captain [Lv. 1325] [Raid Boss]",
+
+        "Captain Elephant [Lv. 1875] [Boss]",
+        "Soul Reaper [Lv. 2100] [Raid Boss]",
+        "Dough King [Lv. 2300] [Raid Boss]",
+        "Cake Prince [Lv. 2300] [Raid Boss]",
+        "rip_indra True Form [Lv. 5000] [Raid Boss]",
+        "Beautiful Pirate [Lv. 1950] [Boss]",
+        "Cake Queen [Lv. 2175] [Boss]"
+    },
 
     -- sea 1
     ["PlayerHunter"] = true, -- will do skip lvl too
