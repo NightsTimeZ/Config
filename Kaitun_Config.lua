@@ -1,4 +1,3 @@
-_G.Ui_Hide = false
 _G.KaitunConfig = {
     ["Start Farm"] = true,
     -- all melee is already do with it self
@@ -38,6 +37,7 @@ _G.KaitunConfig = {
 
     -- item
 
+    ["Buy Base Sword"] = true,
     ["Boss List"] = { -- put boss for farm item ---pls dont put boss that have requirement (like Saber boss dofrmigo) because it already kill if can
         "The Saw [Lv. 100] [Boss]",
         "Greybeard [Lv. 750] [Raid Boss]",
@@ -63,6 +63,7 @@ _G.KaitunConfig = {
     ["Rengoku"] = true,
     ["Sea 3 Hop"] = false, -- hop to find fruit
     ["Race v3"] = true,
+    ["Instance V3"] = true, -- will not go sea 3 if not got race v3
     
     -- sea 3
     ["CDK"] = true,
@@ -71,6 +72,7 @@ _G.KaitunConfig = {
     ["Soul Guitar"] = true,
 
     -- Add On
+    ["White Screen"] = false,
     ["Farm When Lvl Max"] = "Katakuri", -- Bone , Katakuri , Coco
     ["Race Lock"] = "notlock", -- Human , Mink , Fishman , put other mean not lock
     ["FPS Cap"] = 15,
@@ -85,7 +87,7 @@ _G.KaitunConfig = {
 
     -- Fruit
     ["Select Main Devil Fruit Sniper"] = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- if have will eat
-    ["Select Sub Devil Fruit Sinper"] = {"Ice-Ice","Sand-Sand","Dark-Dark","Quake-Quake","Light-Light"}, -- will eat if not have main fruit
+    ["Select Sub Devil Fruit Sniper"] = {"Ice-Ice","Sand-Sand","Dark-Dark","Quake-Quake","Light-Light"}, -- will eat if not have main fruit
     ["Allow Eat Fruit In Inventory"] = true,
     ["Start Sniper"] = true,
     
