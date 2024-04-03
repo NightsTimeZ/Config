@@ -64,17 +64,19 @@ _G.KaitunConfig = {
     ["Sea 3 Hop"] = false, -- hop to find fruit
     ["Race v3"] = true,
     ["Instance V3"] = true, -- will not go sea 3 if not got race v3
+    ["Instance Soul Guitar"] = false,-- will not go sea 3 if not got dark frag
     
     -- sea 3
     ["CDK"] = true,
     ["Tushita"] = true,
     ["Yama"] = true,
     ["Soul Guitar"] = true,
+    ["Pull Lever"] = true,
 
     -- Add On
     ["White Screen"] = false,
     ["Farm When Lvl Max"] = "Katakuri", -- Bone , Katakuri , Coco
-    ["Race Lock"] = "notlock", -- Human , Mink , Fishman , put other mean not lock
+    ["Race Lock"] = {"Human","Mink","Fishman"}, -- Human , Mink , Fishman , Skypiea -- but Skypiea not recommend is hard to kill other pp
     ["FPS Cap"] = 15,
 
     ["Buy Haki Color"] = true, -- will buy only Snow White,Pure Red,Winter Sky
