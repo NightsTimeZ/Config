@@ -31,7 +31,9 @@ _G.KaitunConfig = {
 
     ["RedeemCode Level"] = 2,
 
-    ["White Sreen"] = true,
+    ["white screen"] = true, -- will go white on not focus
+
+    ["Ui Screen"] = true,
 
     ["LimitFragment"] = 100000,
 
@@ -74,8 +76,8 @@ _G.KaitunConfig = {
     ["Pull Lever"] = true,
 
     -- Add On
-    ["White Screen"] = false,
     ["Farm When Lvl Max"] = "Katakuri", -- Bone , Katakuri , Coco
+    ["Ghoul Race"] = false, -- it beta
     ["Race Lock"] = {"Human","Mink","Fishman"}, -- Human , Mink , Fishman , Skypiea -- but Skypiea not recommend is hard to kill other pp
     ["FPS Cap"] = 15,
 
