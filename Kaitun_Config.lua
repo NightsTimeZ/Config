@@ -31,7 +31,7 @@ _G.KaitunConfig = {
 
     ["RedeemCode Level"] = 2,
 
-    ["white screen"] = true, -- will go white on not focus
+    ["white screen"] = false, -- will go white on not focus
 
     ["Ui Screen"] = true,
 
@@ -65,7 +65,7 @@ _G.KaitunConfig = {
     ["Rengoku"] = true,
     ["Sea 3 Hop"] = false, -- hop to find fruit
     ["Race v3"] = true,
-    ["Instance V3"] = true, -- will not go sea 3 if not got race v3
+    ["Skip Race v3"] = true, -- will go sea 3 not care u will get race or not
     ["Instance Soul Guitar"] = false,-- will not go sea 3 if not got dark frag
     
     -- sea 3
@@ -90,8 +90,8 @@ _G.KaitunConfig = {
     ["Select Rarity"] = {"Mythical","Legendary"}, -- Common , Uncommon,Rare,Legendary,Mythical
 
     -- Fruit
-    ["Select Main Devil Fruit Sniper"] = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- if have will eat
-    ["Select Sub Devil Fruit Sniper"] = {"Ice-Ice","Sand-Sand","Dark-Dark","Quake-Quake","Light-Light"}, -- will eat if not have main fruit
+    ["Select Main Devil Fruit Sniper"] = {"Dragon-Dragon","Spirit-Spirit","Magma-Magma","Venom-Venom","Dough-Dough"}, -- if have will eat
+    ["Select Sub Devil Fruit Sniper"] = {"Ice-Ice","Sand-Sand","Dark-Dark","Magma-Magma","Quake-Quake","Light-Light"}, -- will eat if not have main fruit
     ["Allow Eat Fruit In Inventory"] = true,
     ["Start Sniper"] = true,
     
