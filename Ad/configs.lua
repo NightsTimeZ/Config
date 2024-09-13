@@ -1,6 +1,7 @@
 getgenv().Configs = {
 	["Auto Kaitun"] = false,
-	["Kaitun Gui"] = false,
+	["Close Ui Kaitun"] = false,
+	["Close Ui Main"] = false,
 
 	["Select Map"] = "FooshaVillage",
 	["Chapter Map"] = "Latest",
