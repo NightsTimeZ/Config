@@ -1,5 +1,6 @@
 getgenv().Configs = {
 	["Auto Kaitun"] = false,
+	["Challange Kaitun"] = false,
 	["Close Ui Kaitun"] = false,
 	["Close Ui Main"] = false,
 
