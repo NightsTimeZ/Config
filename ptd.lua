@@ -1,9 +1,9 @@
 getgenv().Configs = {
 
-	["Full Auto Play "] = false, -- soon
+	["Full Auto Play"] = false, -- soon
 
 	["Select Map"] = "IDK THE NAME",
-	["Select Difficult"] = "Easy", -- Easy Medium Hard Nightmare
+	["Select Difficult"] = "Nightmare", -- Easy Medium Hard Nightmare
 	["Auto Join"] = false,
 	["Automatically leave"] = true,
 
