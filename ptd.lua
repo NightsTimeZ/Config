@@ -1,11 +1,14 @@
 getgenv().Configs = {
 
-	["Full Auto Play"] = false, -- soon
+	["Full Auto Play"] = false,
+	
+	["Webhook"] = "urwebhook",
+	["Send Webhook"] = false,
 
 	["Select Map"] = "IDK THE NAME",
 	["Select Difficult"] = "Nightmare", -- Easy Medium Hard Nightmare
 	["Auto Join"] = false,
-	["Automatically leave"] = true,
+	["Automatically leave"] = true, -- when other people join
 
 	["Auto Spin"] = false,
 	["Auto Summon"] = false,
