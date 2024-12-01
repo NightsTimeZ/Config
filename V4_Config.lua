@@ -6,6 +6,7 @@ _G.V4Config = {
         ["Kick When Tier 10"] = false,
         ["ignore wait"] = false, -- skip wait for main acc join or help acc join
         ["Helper Gear Change"] = true, -- will change gear for helper if can't help other
+        ["Hop Find FullMoon"] = false,
         ['Helper'] = { -- Put Only 3 diff Race / ใส่เเค่ 3 เผ่า ที่ต่างกัน (Only 3 Acc!!!)
             "",
             "",
